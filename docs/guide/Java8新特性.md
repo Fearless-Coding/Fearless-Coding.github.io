@@ -57,7 +57,7 @@ lambda 表达式的语法格式如下：
 
 [此文章来源](https://blog.csdn.net/mu_wind/article/details/109516995?utm_medium=distribute.pc_category.none-task-blog-hot-4.nonecase&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-4.nonecase)
 
-<img src="images/image-20201113093329990.png" alt="image-20201113093329990" style="zoom:80%;" />
+<img src="./images/image-20201113093329990.png" alt="image-20201113093329990" style="zoom:80%;" />
 
 ## 1、Stream概述
 
