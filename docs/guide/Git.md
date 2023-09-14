@@ -1,4 +1,8 @@
-# 初始化
+---
+title: Git
+---
+
+## 初始化
 
 初始化一个 Git 本地仓库，使用 `git init` 命令
 
@@ -19,7 +23,7 @@ $ git commit -m "add 3 files."
 
 
 
-# Git创建本地分支并关联远程分支
+## Git创建本地分支并关联远程分支
 
 **1、创建本地分支**
 
@@ -68,7 +72,7 @@ git branch –set-upstream 本地新建分支名 origin/远程分支名
 
 
 
-# git怎么删除某个分支
+## git怎么删除某个分支
 
 > 原文链接：https://www.php.cn/faq/493215.html
 
@@ -100,7 +104,7 @@ git branch -d dev
 
 **3、删除追踪分支**
 
-通过指令git branch --delete --remotes <remote>/<branch>,可以删除追踪分支,该操作并没有真正删除远程分支,而是删除的本地分支和远程分支的关联关系,即追踪分支
+通过指令git branch --delete --remotes remote/branch,可以删除追踪分支,该操作并没有真正删除远程分支,而是删除的本地分支和远程分支的关联关系,即追踪分支
 
 如上,通过命令行git push origin --delete branch会删除远程分支和追踪分支,不需要单独删除追踪分支,但是如果通过网页对远程分支进行删除,追踪分支是不会被删除的.
 
@@ -110,7 +114,7 @@ git branch -d dev
 
 
 
-# git查看本地分支
+## git查看本地分支
 
 **1、基本操作**
 
@@ -204,7 +208,7 @@ git branch -vv
 
 
 
-# git怎样转换分支
+## git怎样转换分支
 
 > https://www.php.cn/faq/487574.html
 
@@ -270,7 +274,7 @@ git checkout zhanghanlun
 
 
 
-# 状态查看
+## 状态查看
 
 ```
 $ git status
@@ -304,7 +308,7 @@ index 46d49bf..9247db6 100644
 
 
 
-# TortoiseGit 拉取项目失败，错误：Could not get HEAD hash. libgit2 returned: repository path '***' is not owned bu current user.
+## TortoiseGit 拉取项目失败，错误：Could not get HEAD hash. libgit2 returned: repository path '***' is not owned bu current user.
 
 > 参考：https://www.hxstrive.com/article/1202.htm
 
@@ -344,7 +348,7 @@ C:\Users\Administrator> git config --global --add safe.directory "*"
 
 
 
-# Unstaged changes after reset
+## Unstaged changes after reset
 
 > 参考：https://blog.csdn.net/a1030260075/article/details/129761382
 
@@ -362,7 +366,7 @@ C:\Users\Administrator> git config --global --add safe.directory "*"
 
 
 
-# 学习地址
+## 学习地址
 
 https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008
 
@@ -425,13 +429,13 @@ git add * 加 git checkout -f，清空未commit的东西
 和错，可以rebase -i 把合错的commit干掉
 ```
 
-# 场景：多个commit合为一个
+## 场景：多个commit合为一个
 
 参考：https://blog.csdn.net/u013276277/article/details/82470177?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v25-1-82470177.nonecase&utm_term=%E5%90%88%E5%B9%B6commit&spm=1000.2123.3001.4430
 
 
 
-# rebase 后无法 push
+## rebase 后无法 push
 
 **Git在push推送时，报错提示信息如下：**
 
