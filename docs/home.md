@@ -1,6 +1,16 @@
+---
+title: 首页
+lastUpdated: true
+--- 
+
+
 # Explored
 这是一条新的路，从未走过的路，Explored探索  Explored 开发
 B站：https://www.bilibili.com/
+
+
+
+# ABC
 
 ## API 网关
 ### Spring Cloud Gateway
@@ -27,7 +37,7 @@ B站：https://www.bilibili.com/
 ### Motan
  
 ## 消息队列
-### RocketMQ
+### [RocketMQ](/guide/RocketMQ.md)
  
 ### Kafka
  
@@ -91,16 +101,20 @@ B站：https://www.bilibili.com/
 ### Nginx
  
 ## Java
-### Java 面试题
+### [Java面试题](/guide/面试.md)
  
 ### JDK 源码
  
-### Java 并发
+### [Java并发](/guide/Java并发.md)
  
-### JVM 虚拟机
+### [JVM虚拟机](/guide/JVM.md)
+
+#### [JVM虚拟机](/guide/JVM笔记（一）.md)
+#### [JVM虚拟机](/guide/JVM笔记（二）.md)
+#### [JVM虚拟机](/guide/JVM笔记（三）.md)
  
 ## J2EE
-### Spring
+### [Spring](/guide/Spring.md)
  
 ### Spring Boot
  
@@ -111,7 +125,7 @@ B站：https://www.bilibili.com/
  
 ### Spring Webflux
  
-### WebSocket
+### [WebSocket](/guide/WebSocket.md)
  
 ### Web Services
  
@@ -157,9 +171,9 @@ B站：https://www.bilibili.com/
 ### Happylifeplat TCC
  
 ## 数据库
-### MySQL
+### [MySQL](guide/Mysql.md)
  
-### Redis
+### [Redis](guide/Redis.md)
  
 ### MongoDB
  
@@ -173,7 +187,7 @@ B站：https://www.bilibili.com/
 ### Lucene
  
  
-## 工具类
+## [工具类](/guide/工具.md)
 ### RxJava
  
 ### Guava
@@ -181,15 +195,17 @@ B站：https://www.bilibili.com/
  
  
 ## 自我修养
-### 设计模式
+### [设计模式](/guide/设计模式.md)
  
-### 数据结构与算法
+### [数据结构](/guide/数据结构.md)
+
+### [算法](/guide/算法.md)
  
 ### 性能测试
  
  
 ## 容器服务
-### Linux
+### [Linux](/guide/Linux.md)
  
 ### Docker
  
@@ -198,7 +214,7 @@ B站：https://www.bilibili.com/
 ### Swarm
  
 ## 开发工具
-### Git
+### [Git](/guide/Git.md)
  
 ### Maven
  
@@ -220,7 +236,7 @@ B站：https://www.bilibili.com/
 ## 前端框架
 ### React
  
-### Vue
+### [Vue](/guide/Vue.md)
  
 ### Angular
  
