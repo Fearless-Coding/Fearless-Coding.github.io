@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-79fdd481","path":"/home.html","title":"Explored","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"摆阵","slug":"摆阵","link":"#摆阵","children":[]}],"git":{"updatedTime":1694704859000,"contributors":[{"name":"ext.pangzhiyang","email":"ext.pangzhiyang@jd.com","commits":1}]},"filePathRelative":"home.md"}');export{e as data};
