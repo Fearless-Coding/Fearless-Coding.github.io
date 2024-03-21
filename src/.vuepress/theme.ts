@@ -9,8 +9,8 @@ export default hopeTheme({
   fullscreen: true,
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Fearless",
+    // url: "https://mister-hope.com",
   },
 
   iconAssets: "fontawesome-with-brands",
