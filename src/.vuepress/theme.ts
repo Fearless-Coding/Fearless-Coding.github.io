@@ -43,6 +43,8 @@ export default hopeTheme({
   },
 
   plugins: {
+    blog: true,
+
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",

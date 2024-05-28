@@ -30,7 +30,7 @@ B站：https://www.bilibili.com/
 | 数据库连接池                | HikariCP                                    | Druid                                 | 多数据源 && 读写分离                        |                              |        |      |
 | 数据库中间件                | Sharding JDBC                               | MyCAT                                 | Sharding Sphere                     | Canal                        |        |      |
 | 分布式事务                 | TCC Transaction                             | Seata                                 | Happylifeplat TCC                   | Fescar                       |        |      |
-| 数据库                   | [MySQL](/data/数据库/Mysql基础.md)               | [Redis](/data/数据库/Redis.md)           | MongoDB                             | TiDB                         |        |      |
+| 数据库                   | [MySQL](/data/数据库/Mysql/Mysql基础.md)         | [Redis](/data/数据库/Redis/Redis基础.md)   | MongoDB                             | TiDB                         |        |      |
 | 搜索引擎                  | Elasticsearch                               | Solr                                  | Lucene                              |                              |        |      |
 | [工具类](/data/Java工具类/工具.md) | RxJava                                      | Guava                                 | Hutool                              |                              |        |      |
 | 自我修养                  | [设计模式](/data/自我修养/设计模式.md)                  | [数据结构](/data/自我修养/数据结构.md)            | [算法](/data/自我修养/算法.md)              | 性能测试                         |        |      |
@@ -41,4 +41,4 @@ B站：https://www.bilibili.com/
 | 大数据                   | HBase                                       | Hive                                  | Spark                               | Flink                        |        |      |
 | [系统架构](/data/系统架构/)   | [限流](/data/系统架构/限流.md)                      |                                       |                                     |                              |        |      |
 | 其它语言                  | Go                                          | Python                                |                                     |                              |        |      |
-|      [真实案例分析](/data/真实案例分析/OOM真实生产分析.md)             |                                           |                                 |                                     |                              |        |      |
+|      [真实案例分析](/data/真实案例分析/OOM真实生产分析.md)             |                                             |                                       |                                     |                              |        |      |

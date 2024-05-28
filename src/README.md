@@ -1,5 +1,6 @@
 ---
 home: true
+layout: BlogHome
 icon: home
 title: FearlessCoding
 heroImage: /logo.svg
