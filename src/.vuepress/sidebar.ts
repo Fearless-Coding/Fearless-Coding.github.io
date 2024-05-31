@@ -94,11 +94,19 @@ export default sidebar({
     //         children: "structure",
     //     }
     // ],
-    "/menu/": [
+    // "/menu/": [
+    //     {
+    //         text: "导航总览",
+    //         icon: "signs-post",
+    //         link: "README"
+    //     }
+    // ],
+    "/project/": [
+        "",
         {
-            text: "导航总览",
-            icon: "signs-post",
-            link: "README"
+            text: "案例",
+            icon: "laptop-code",
+            children: "structure",
         }
     ]
 });

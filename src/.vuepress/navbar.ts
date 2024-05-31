@@ -22,5 +22,6 @@ export default navbar([
         children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
       },
     ],
-  }
+  },
+  "/project/"
 ]);
