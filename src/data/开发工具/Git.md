@@ -3,7 +3,9 @@ title: Git
 index: true
 #icon: laptop-code
 category:
-  - 使用指南
+  - 开发工具
+tag:
+  - Git
 ---
 
 ## 初始化
