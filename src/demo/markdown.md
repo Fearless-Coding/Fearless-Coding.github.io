@@ -169,7 +169,7 @@ npm i -D vuepress-theme-hope
 
 #### 卡片
 
-```card
+```
 title: Mr.Hope
 desc: Where there is light, there is hope
 logo: https://mister-hope.com/logo.svg

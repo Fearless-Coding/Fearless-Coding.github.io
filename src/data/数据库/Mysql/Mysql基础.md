@@ -24,31 +24,31 @@ https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
 
 1. 添加主键索引：
 
-   ```mysql
+   ```sql
    ALTER TABLE `table_name` ADD PRIMARY KEY `IndexName` (`column`);
    ```
 
 2. 添加唯一索引：
 
-   ```mysql
+   ```sql
    ALTER TABLE `table_name` ADD UNIQUE KEY `IndexName` (`column`);
    ```
 
 3. 添加普通索引：
 
-   ```mysql
+   ```sql
    ALTER TABLE `table_name` ADD INDEX `index_name` (`column`);
    ```
 
 4. 添加全文索引：
 
-   ```mysql
+   ```sql
    ALTER TABLE `talbe_name` ADD FULLTEXT `index_name` (`column`);
    ```
 
 5. 添加组合索引：
 
-   ```mysql
+   ```sql
    ALTER TABLE `table_name` ADD INDEX `index_name`（`column1`,`column2`,`column3`);
    ```
 
@@ -56,7 +56,7 @@ https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
 
 ## mysql 清空表且自增的id从0开始
 
-```mysql
+```sql
 truncate table TableName;
 ```
 
@@ -68,7 +68,7 @@ truncate table TableName;
 
 update 字段=字段+字符串 拼接
 
-```mysql
+```sql
 update comic set concat(user_name,'呵呵呵');
 ```
 
